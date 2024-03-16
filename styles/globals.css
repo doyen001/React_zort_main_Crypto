@@ -1,0 +1,24 @@
+html,
+body {
+  padding: 0;
+  margin: 0;  
+  font-family: 'DM Sans', sans-serif;
+  background-color: #121315;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(145deg, #1E1F23 0%, #0F0F11 98.67%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
